@@ -1,0 +1,323 @@
+#large-nav {
+    background-color: #024959;
+    height: 90px;
+    position: relative;
+}
+
+#large-nav #main-nav {
+    height: 90px;
+    border-bottom: 1px rgba(2, 21, 66, 0) solid;
+}
+
+#large-nav #main-nav .main-nav-inner {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#large-nav #main-nav .main-nav-list {
+    min-width: 400px;
+    list-style: none;
+    padding-top: 34px;
+    margin: 0;
+}
+
+#large-nav #main-nav .main-nav-list li {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    display: inline;
+    margin: 0 36px 0 0;
+    text-transform: uppercase;
+}
+
+.social {
+    list-style:none;
+}
+
+.social li {
+    display:inline;
+    float:left;
+    margin: 20px 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.social li a {
+    display:block;
+    width:30px;
+    height:30px;
+    position:relative;
+}
+
+.social li a strong { position:absolute; left:20px; top:-1px;
+    text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75); background-color:rgba(0, 0, 0, 0.7);
+    border-radius:3px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+li.github {
+    background-image:url("../assets/GitHub-Mark-64px_white.png");
+}
+li.linkedin {
+    background-image:url("../assets/linkedin_white.png");
+}
+li.twitter {
+    background-image:url("../assets/twitter_white.png");
+}
+li.soundcloud {
+    background-image:url("../assets/soundcloud_white.png");
+}
+
+.social:hover li {
+    opacity:0.2;
+}
+
+.social li {
+    transition-property: opacity;
+    transition-duration: 500ms;
+}
+.social li a strong { opacity:0;
+    transition-property:
+    opacity, top;
+    transition-duration: 300ms;
+}
+
+.social li:hover {
+    opacity:1;
+    /*box-shadow: 3px 3px 5px black;*/
+
+}
+.social li:hover a strong {
+    opacity:1;
+    top:-10px;
+}
+
+#large-nav .social-nav {
+    height: 90px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0px 12px 0 0;
+}
+
+#large-nav .social-nav .LinkedIn span {
+    display: block;
+    width: 35px;
+    height: 31px;
+    background-image: url("../assets/LinkedIn-InBug-2CRev.png");
+    background-position: 0px 0px;
+    /* background-size: 35px 70px; */
+    opacity: 1;
+}
+
+#large-nav .social-nav .Github span {
+    display: block;
+    width: 35px;
+    height: 31px;
+    background-image: url("../assets/GitHub-Mark-64px.png");
+    background-position: 0px 0px;
+    /* background-size: 35px 70px; */
+    opacity: 1;
+}
+
+
+#large-nav a {
+    color: #fff;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+#home-page {
+    background-color: #024959;
+    height: 100vh;
+}
+
+#content-page {
+    background-color: #024959;
+}
+
+#home-page #intro-bkg {
+    z-index: 1;
+    z-index: 1;
+
+}
+
+.container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#home-page #intro-bkg #intro {
+    z-index: 7;
+    position: relative;
+}
+
+#home-page #intro-bkg #intro-title {
+    position: fixed;
+    z-index: 1;
+    opacity: 0;
+    top: -400px;
+    left: 0px;
+    padding-bottom: 60px;
+}
+
+#home-page #intro-bkg #intro-title2 {
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    padding-bottom: 60px;
+}
+
+.span-center {
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#intro-name {
+    margin-bottom: 100px;
+}
+
+#intro-name h1 {
+    font-size: 90px;
+    line-height: 72px;
+    color: #F2C777;
+    /* font-family: "Apercu Bold", Calibri, sans-serif; */
+    font-size-adjust: 0.508;
+    font-weight: bold;
+    font-style: normal;
+    /* letter-spacing: -4px; */
+    text-align: center;
+    margin-left: -40px;
+}
+
+#home-page #intro-bkg #intro-copy {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    z-index: 3;
+    /*margin-left: -40px;*/
+}
+
+.whitetxt {
+    color: #fff !important;
+}
+
+.intro-copy {
+    font-size: 50px;
+    line-height: 60px;
+    margin-left: -40px;
+}
+
+.media-panel {
+    margin-top: 0;
+    max-width: 1000px;
+    margin-bottom: 60px;
+    position: relative;
+    /* height: 250px; */
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.media-boundingbox {
+    border: 0px;
+    border-top: 5px;
+    border-left: 5px;
+    border-color: white;
+    border-style: solid;
+    overflow: auto;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    /* -webkit-box-shadow: 3px 3px 5px 6px #ccc; */
+    box-shadow: 0px 5px 5px #303030;
+}
+
+.media-boundingbox-code {
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+.media-img {
+    height: 400px;
+    width: 400px;
+}
+
+.media-div {
+    height 250px;
+}
+
+.media-post {
+    padding: 60px 60px;
+    overflow: hidden;
+}
+
+.media-post-code {
+    padding: 10px 60px;
+    overflow: hidden;
+}
+
+media-post-screenshot {
+    padding: 0;
+}
+
+.p-sticker {
+    margin: 10.5px 0 0 0;
+}
+
+.sticker-image {
+    padding-bottom: 10.5px;
+    padding-right: 10.5px;
+}
+
+media-post-video {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+.media-post h3 {
+    margin-top: 0;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0 0 10px 25px;
+    list-style-type: none;
+}
+
+a {
+    color: #F24738;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .media-div-video {
+        background-color: #092140;
+        text-align: center;
+    }
+
+    .media-post-video {
+        padding: 30px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .media-div {
+        background-color: #092140;
+        text-align: center;
+
+    }
+
+    .media-post {
+        padding: 30px 30px;
+    }
+}
