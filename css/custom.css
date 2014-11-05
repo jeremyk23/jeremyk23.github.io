@@ -129,9 +129,12 @@ a:active, a:hover {
     outline: 0;
 }
 
-#home-page {
+body {
     background-color: #024959;
-    height: 100vh;
+    /*height: 100vh;*/
+}
+#home-page {
+
 }
 
 #content-page {
@@ -247,7 +250,7 @@ a:active, a:hover {
 }
 
 .media-div {
-    height 250px;
+    height: 250px;
 }
 
 .media-post {
