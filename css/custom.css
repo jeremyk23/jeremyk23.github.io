@@ -350,6 +350,13 @@ a {
     padding: 20px;
 }
 
+.media-div-image {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .dark-blue {
     background-color: #092140;
 }
@@ -378,6 +385,7 @@ a {
     .media-div-video iframe {
         padding: 60px;
     }
+
 }
 
 /* Medium Devices, Desktops */
@@ -391,6 +399,14 @@ a {
     .media-div-video iframe {
         padding: 30px;
     }
+
+    .media-div-image {
+        padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    }
+
 }
 
 /* Small Devices, Tablets */
@@ -405,6 +421,10 @@ a {
     .media-div-video iframe {
         padding: 20px;
     }
+
+    .media-div-image {
+        padding: 10px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -414,6 +434,10 @@ a {
     }
 
     .media-div-sound iframe{
+        padding: 10px;
+    }
+
+    .media-div-image {
         padding: 10px;
     }
 
