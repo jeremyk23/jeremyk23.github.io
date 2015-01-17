@@ -73,6 +73,10 @@ li.soundcloud {
     background-image:url("../assets/soundcloud_white.png");
 }
 
+li.slideshare {
+    background-image:url("../assets/slideshare-icon_white.png");
+}
+
 .social:hover li {
     opacity:0.2;
 }
