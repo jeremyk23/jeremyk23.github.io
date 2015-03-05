@@ -6,7 +6,9 @@ description: Create memes from celebrity's tweets and learn to make your first s
 ---
 
 I feel like the internet missed a step. 
-You start with learning HTML and CSS with the help of a seemmingly endless amount of blogs and tutorials. Then you pick up Javascript with [Codeacademy](http://www.codecademy.com/en/tracks/javascript) and the like. Now you want to have your site interact with your favorite services like Facebook or Foursquare.Cool. *Here's the Python code to help you do that.*
+You start with learning HTML and CSS with the help of a seemmingly endless amount of blogs and tutorials. Then you pick up Javascript with [Codeacademy](http://www.codecademy.com/en/tracks/javascript) and the like. Now you want to have your site interact with your favorite services like Facebook or Foursquare. Cool. 
+
+*Here's the Python code to help you do that.*
 
 "What?! How and where do I put this Python stuff in my HTML?"
 
