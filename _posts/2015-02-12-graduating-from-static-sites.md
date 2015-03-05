@@ -1,5 +1,5 @@
 ---
-title: Graduating From Static Sites
+title: Graduating From Static Sites Part 1
 sub_title: How to create a server-side web app that interacts with the Twitter API
 image_url: /assets/celebrememe-blog-post-header2.png
 description: Create memes from celebrity's tweets and learn to make your first server-side web app.
