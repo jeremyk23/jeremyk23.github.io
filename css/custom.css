@@ -16,7 +16,7 @@
 }
 
 #large-nav #main-nav .main-nav-list {
-    min-width: 360px;
+    /*min-width: 360px;*/
     list-style: none;
     padding-top: 34px;
     margin: 0;
@@ -221,7 +221,7 @@ body {
 .intro-copy {
     font-size: 50px;
     line-height: 60px;
-    margin-left: -40px;
+    /*margin-left: -40px;*/
 }
 
 .media-panel {
@@ -439,7 +439,7 @@ a {
     }
 
     #large-nav #main-nav .main-nav-list {
-        margin-left: 20px;
+        margin-left: 0px;
     }
 
     .link {
@@ -449,7 +449,7 @@ a {
     .intro-copy {
         font-size: 20px;
         line-height: 35px;
-        margin-left: -24px;
+        /*margin-left: -24px;*/
     }
 
     #intro-name h1 {
@@ -480,8 +480,13 @@ a {
     .media-div-image {
         padding: 10px;
     }
-
-    
-    
-
+    #home-page #intro-bkg #intro-copy {
+        width: 90%;
+    }
 }
+
+/*When Blog category wraps under*/
+@media only screen and (max-width : 362px) {
+    .navlink-wrap-margin {
+        margin-left: 30px !important;
+    }
