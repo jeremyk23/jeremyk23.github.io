@@ -77,6 +77,10 @@ li.slideshare {
     background-image:url("../assets/slideshare-icon_white.png");
 }
 
+li.email {
+    background-image:url("../assets/email.png");
+}
+
 .social:hover li {
     opacity:0.2;
 }
