@@ -239,6 +239,11 @@ body {
     margin-right: auto;
 }
 
+.col-panels {
+    /*margin-bottom: 0px;*/
+}
+
+
 .media-boundingbox {
     background: white;
     border: 0px;
